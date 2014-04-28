@@ -3,8 +3,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #9cc2d2;
-  color: #354b59;
+  background: url(../tile-sets/evolution/bg.jpg) no-repeat center;
+  color: #ffffff;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px; }
@@ -97,14 +97,14 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #0c92bf;
+  background: #fff;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: #000;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -116,7 +116,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #222; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -145,6 +145,7 @@ p {
   line-height: 1.65; }
 
 a {
+  color: blue;
   font-weight: medium;
   text-decoration: underline;
   cursor: pointer; }
@@ -210,8 +211,8 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #1e6477;
-  border-radius: 6px;
+  background: #333;
+  border-radius: 10px;
   width: 500px;
   height: 500px;
   -webkit-box-sizing: border-box;
@@ -410,7 +411,7 @@ hr {
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/evolution/4.jpg');
+    background: url('../tile-sets/evolution/4.JPG');
     background-size: 100%;
     color: rgba(0,0,0,0);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
@@ -982,11 +983,11 @@ a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
 }
 .restart-button, a.retry-button {
   display: inline-block;
-  background: #1e6477;
+  background: #7F0019;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #fff;
   line-height: 42px;
   cursor: pointer;
   display: block;
